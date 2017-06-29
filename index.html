@@ -1,0 +1,212 @@
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+
+
+html,body{
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+}
+
+#main ,#menu, #sidebar {
+  background-color: #e9ebee;
+}
+#header{
+  background: blue;
+   color: white;
+   width: 100vw;
+   position: absolute
+   left:0px;
+
+}
+.white-text{
+  color: white !important;
+}
+.head{
+  color: white !important;
+  font-size:15px;
+
+  font-weight: 300;
+
+}
+.profile{
+  height:70px;
+  width: 70px;
+
+  border-radius: 3px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+@media(max-width:768px)
+{
+  .form-control{
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-default" id="header">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand white-text" href="#">FRIENDLY</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right ">
+          <img class="profile"src="fl.jpg">
+    <li><a class="head" href="#">Tanvi</a></li>
+    <li><a class="head"href="#">Home</a></li>
+    <li><a class="head"href="#"> <span class="glyphicon glyphicon-user"></span></a></li>
+    <li><a class="head"href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+    <li><a class="head"href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+    <li><a class="head"href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+
+
+
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  </header>
+  <div class="container" id="wrapper">
+      <div class="row">
+        <div class="col-md-3">
+          <div id="menu">
+            <ul class="nav nav-pills nav-stacked">
+              <li role="news feed" ><a href="#">News Feed</a></li>
+              <li role="Messenger"><a href="#">Messenger</a></li>
+              <p class="list-heading"> Shortcuts </p>
+ <li role="presentation"><a href="#">AcadView</a></li>
+ <li role="presentation"><a href="#">Bhartiya Startups</a></li>
+ <li role="presentation"><a href="#">Fevicryl Hobby ideas</a></li>
+
+      <p class="list-heading">Explore</p>
+<li role="presentation"><a href="#">Events</a></li>
+<li role="presentation"><a href="#">On this day</a></li>
+<li role="presentation"><a href="#">Groups</a></li>
+<li role="presentation"><a href="#">Pages</a></li>
+<li role="presentation"><a href="#">Saved</a></li>
+
+</ul>
+        </div>
+      </div>
+        <div class="col-md-6">
+          <div id="main">
+            <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><a href="#">Laughing Colors</a></h3>
+  </div>
+  <div class="panel-body">
+
+        <div>
+          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            <span>Like</span>
+          <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+
+            <span>Comment</span>
+        </div>
+      </div>
+  </div>
+  <div class="panel-footer">Panel footer</div>
+</div>
+<div id="main">
+  <div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title"><a href="#">Laughing Colors</a></h3>
+</div>
+<div class="panel-body">
+
+<div>
+<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+  <span>Like</span>
+<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+
+  <span>Comment</span>
+</div>
+</div>
+</div>
+<div class="panel-footer">Panel footer</div>
+</div>
+<div id="main">
+  <div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title"><a href="#">Laughing Colors</a></h3>
+</div>
+<div class="panel-body">
+
+<div>
+<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+  <span>Like</span>
+<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+
+  <span>Comment</span>
+</div>
+</div>
+</div>
+<div class="panel-footer">Panel footer</div>
+</div>
+          </div>
+
+        <div class="col-md-3"><div id="sidebar"></div></div>
+      </div>
+    </div>
+  <footer>
+    <ul class="nav nav-pills pull-right">
+      <ul class="nav nav-pills nav-stacked">
+            <li role="presentation "><a href="# ">About Us</a></li>
+            <li role="presentation "><a href="# ">Home</a></li>
+            <li role=" presentation "><a href="# ">Privacy</a></li>
+            <li role="presentation "><a href="# ">Advertising</a></li>
+            <li role="presentation "><a href="# ">Cookies</a></li>
+            <li role="presentation "><a href="# ">Ad Choices</a></li>
+          </ul>
+</ul>
+  </footer>
+  </div>
+</body>
+</html>
